@@ -52,5 +52,5 @@ binary_tree_t *binary_trees_ancestor(const binary_tree_t *first, const binary_tr
 //static int print_t(const binary_tree_t *tree, int offset, int depth, char **s);
 //static size_t _height(const binary_tree_t *tree);
 void binary_tree_print(const binary_tree_t *tree);
-//int binary_tree_is_leaf(const binary_tree_t *node)
+int binary_tree_is_leaf(const binary_tree_t *node);
 #endif
